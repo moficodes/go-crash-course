@@ -8,5 +8,9 @@ import (
 
 func main() {
 	fmt.Println(print.Number)
-	fmt.Println(print.data)
+	// fmt.Println(print.data)
+}
+
+func Export() int {
+	return 42
 }
