@@ -7,7 +7,11 @@ import (
 )
 
 func main() {
+	m := print.Message{
+		Greeting: "Hello",
+	}
 	fmt.Println(print.Number)
+	fmt.Println(m.voice)
 	// fmt.Println(print.data)
 }
 
